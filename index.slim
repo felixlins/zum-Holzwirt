@@ -9,7 +9,8 @@ html
 
   body
     #wrapper
-      section.hero
+
+      section.hero.is-medium.is-info
         .hero-body
           .container
             h1.title Zum Holzwirt
@@ -17,6 +18,7 @@ html
 
       section
         .container.p-3
+          h3.title Speisekarte
           .columns.is-multiline
 
             - YAML.load_file("menuitems.yml").each do |item|
@@ -26,6 +28,21 @@ html
                   .column.dashes
                   .column.price: h3 &euro;#{item["price"]}
                 p = item["description"]
+
+      section
+        .container.p-3
+          h3.title Öffnungszeiten
+          table.table.is-striped.is-fullwidth.is-hoverable
+            thead
+              th.has-text-left Tag
+              th.has-text-left Datum
+              th.has-text-left Öffnungszeiten
+            tbody
+              - YAML.load_file("opening-times.yml").each do |date|
+                tr
+                  td = date["name"]
+                  td = date["date"]
+                  td = date["times"]
 
     footer.footer
       h5.title.is-5 Impressum

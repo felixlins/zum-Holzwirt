@@ -12,6 +12,10 @@ body {
   flex-direction: column;
 }
 
+section {
+  margin-bottom: 5em;
+}
+
 #wrapper {
   flex: 1;
 }
