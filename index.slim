@@ -18,10 +18,9 @@ html
       .container.p-3
         .columns.is-multiline
           - YAML.load_file("menuitems.yml").each do |item|
-            .column.is-half
-              .menuitem
-                .columns
-                  .column.name: h3 = item["name"]
-                  .column.dashes
-                  .column.price: h3 &euro;#{item["price"]}
-                p = item["description"]
+            .column.is-half.menuitem
+              .columns
+                .column.name: h3 = item["name"]
+                .column.dashes
+                .column.price: h3 &euro;#{item["price"]}
+              p = item["description"]
