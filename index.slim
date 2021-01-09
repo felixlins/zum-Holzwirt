@@ -1,11 +1,11 @@
 doctype html
 html
   head
-    meta charset="utf-8" /
-    meta content="width=device-width, initial-scale=1" name="viewport" /
+    meta charset="utf-8"
+    meta content="width=device-width, initial-scale=1" name="viewport"
     title Zum Holzwirt
-    link href="css/bulma.min.css" rel="stylesheet" /
-    link href="css/application.css" rel="stylesheet" /
+    link href="css/bulma.min.css" rel="stylesheet"
+    link href="css/application.css" rel="stylesheet"
 
   body
     #wrapper
@@ -18,6 +18,7 @@ html
       section
         .container.p-3
           .columns.is-multiline
+
             - YAML.load_file("menuitems.yml").each do |item|
               .column.is-half.menuitem
                 .columns
@@ -27,7 +28,7 @@ html
                 p = item["description"]
 
     footer.footer
-      h3.title Impressum
+      h5.title.is-5 Impressum
       .columns
         .column.is-one-quarter
           p Johann Numberger
@@ -37,3 +38,7 @@ html
         .column.is-one-quarter
           p Telefon: +49(0)80831274
           p E-Mail: Johann.numberger@icloud.com
+      p 
+        | Copyright &copy; 
+        | #{Time.now.year} 
+        strong Zum Holzwirt
