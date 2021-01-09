@@ -1,0 +1,36 @@
+/*
+ * Scheme 1: #5B4F3A #AEAA8A #716F5A #635A3D #47422F
+ * Scheme 2: #A3A183 #6D6E59 #625A3D #45402C #5B523E
+ * Scheme 3: #AAA688 #676653 #5B523E #48402E #615A3C
+ * Scheme 4: #625B3C #AFAC8D #656451 #5C533D #433C29
+ *
+ */
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+#wrapper {
+  flex: 1;
+}
+
+.menuitem .columns {
+  display: flex;
+}
+
+.menuitem .dashes {
+  border-bottom: 1px dashed #636166;
+}
+
+.menuitem .name, .menuitem .price {
+  flex: none;
+  padding-bottom: 0;
+}
+
+.menuitem  h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.125;
+}

@@ -1,0 +1,39 @@
+doctype html
+html
+  head
+    meta charset="utf-8" /
+    meta content="width=device-width, initial-scale=1" name="viewport" /
+    title Zum Holzwirt
+    link href="css/bulma.min.css" rel="stylesheet" /
+    link href="css/application.css" rel="stylesheet" /
+
+  body
+    #wrapper
+      section.hero
+        .hero-body
+          .container
+            h1.title Zum Holzwirt
+            h2.subtitle Ein Untertitel
+
+      section
+        .container.p-3
+          .columns.is-multiline
+            - YAML.load_file("menuitems.yml").each do |item|
+              .column.is-half.menuitem
+                .columns
+                  .column.name: h3 = item["name"]
+                  .column.dashes
+                  .column.price: h3 &euro;#{item["price"]}
+                p = item["description"]
+
+    footer.footer
+      h3.title Impressum
+      .columns
+        .column.is-one-quarter
+          p Johann Numberger
+          p Gastwirt
+          p Holz 7
+          p 84405 Dorfen
+        .column.is-one-quarter
+          p Telefon: +49(0)80831274
+          p E-Mail: Johann.numberger@icloud.com

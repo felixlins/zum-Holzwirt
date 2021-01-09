@@ -1,0 +1,13 @@
+---
+- 
+  name: First Item
+  price: 10
+  description: This is the first menu item
+- 
+  name: Second Item
+  price: 12
+  description: This is the second menu item
+- 
+  name: Third Item
+  price: 15
+  description: This is another menu item, maybe number 3
