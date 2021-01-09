@@ -5,3 +5,7 @@
  * Scheme 4: #625B3C #AFAC8D #656451 #5C533D #433C29
  *
  */
+
+.dashes {
+  border-bottom: 1px dashed #636166;
+}
