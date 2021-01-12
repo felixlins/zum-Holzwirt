@@ -1,23 +1,34 @@
 doctype html
 html
   head
-    meta charset="utf-8" /
-    meta content="width=device-width, initial-scale=1" name="viewport" /
+    meta charset="utf-8"
+    meta content="width=device-width, initial-scale=1" name="viewport"
     title Zum Holzwirt
-    link href="css/bulma.min.css" rel="stylesheet" /
-    link href="css/application.css" rel="stylesheet" /
+    link href="css/bulma.min.css" rel="stylesheet"
+    link href="css/application.css" rel="stylesheet"
 
   body
     #wrapper
-      section.hero
+
+      section.hero.is-medium#title
         .hero-body
           .container
-            h1.title Zum Holzwirt
-            h2.subtitle Ein Untertitel
+            .columns
+              .column
+                h1.title Zum Holzwirt
+                h2.subtitle 
+                  | Essen für „Dahoam“ 
+                  br
+                  | Vorbestellung unter 08083/1274
+              .column
+                figure.image
+                  img src="img/logo.png"
 
       section
         .container.p-3
+          h3.title Speisekarte
           .columns.is-multiline
+
             - YAML.load_file("menuitems.yml").each do |item|
               .column.is-half.menuitem
                 .columns
@@ -26,8 +37,23 @@ html
                   .column.price: h3 &euro;#{item["price"]}
                 p = item["description"]
 
+      section
+        .container.p-3
+          h3.title Öffnungszeiten
+          table.table.is-striped.is-fullwidth.is-hoverable
+            thead
+              th.has-text-left Tag
+              th.has-text-left Datum
+              th.has-text-left Öffnungszeiten
+            tbody
+              - YAML.load_file("opening-times.yml").each do |date|
+                tr
+                  td = date["name"]
+                  td = date["date"]
+                  td = date["times"]
+
     footer.footer
-      h3.title Impressum
+      h5.title.is-5 Impressum
       .columns
         .column.is-one-quarter
           p Johann Numberger
@@ -37,3 +63,7 @@ html
         .column.is-one-quarter
           p Telefon: +49(0)80831274
           p E-Mail: Johann.numberger@icloud.com
+      p 
+        | Copyright &copy; 
+        | #{Time.now.year} 
+        strong Zum Holzwirt
