@@ -12,8 +12,16 @@ body {
   flex-direction: column;
 }
 
+section {
+  margin-bottom: 5em;
+}
+
 #wrapper {
   flex: 1;
+}
+
+#title {
+  background-color: #BDBA9B;
 }
 
 .menuitem .columns {
