@@ -20,6 +20,10 @@ section {
   flex: 1;
 }
 
+#title {
+  background-color: #BDBA9B;
+}
+
 .menuitem .columns {
   display: flex;
 }

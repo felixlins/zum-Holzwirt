@@ -10,11 +10,19 @@ html
   body
     #wrapper
 
-      section.hero.is-medium.is-info
+      section.hero.is-medium#title
         .hero-body
           .container
-            h1.title Zum Holzwirt
-            h2.subtitle Ein Untertitel
+            .columns
+              .column
+                h1.title Zum Holzwirt
+                h2.subtitle 
+                  | Essen für „Dahoam“ 
+                  br
+                  | Vorbestellung unter 08083/1274
+              .column
+                figure.image
+                  img src="img/logo.png"
 
       section
         .container.p-3
