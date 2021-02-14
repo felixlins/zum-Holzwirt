@@ -1,40 +1,13 @@
 ---
 - 
-  name: Ofenfrischer Krustenbraten
-  price: 8.90
-  description: serviert mit zwei Semmelknödel und Biersauce
+  name: First Item
+  price: 10
+  description: This is the first menu item
 - 
-  name: Zwiebelrostbraten
-  price: 18.00
-  description: serviert mit Röstzwiebeln, Sauce und Pommes Frites
+  name: Second Item
+  price: 12
+  description: This is the second menu item
 - 
-  name: Ochsenbraten
-  price: 11.50
-  description: serviert mit zwei Semmelknödel und Blaukraut
-- 
-  name: Schweineschnitzel „Wiener Art“ 
-  price: 9.50
-  description: serviert mit Pommes Frites
-- 
-  name: Schweinelendchen 
-  price: 10.90
-  description: serviert mit Spätzle und Rahmsauce
-- 
-  name: Hirschedelgulasch
-  price: 13.90
-  description: serviert mit Spätzle und Blaukraut 
-- 
-  name: Karibisches Feuer 
-  price: 11.50
-  description: serviert mit Butterreis
-- 
-  name: Knödel mit Sauce | Spätzle mit Sauce  
-  price: 3.00
-  description: für unsere Kleinen oder als Beilage
-- 
-  name: Beilagensalat  
-  price: 2.80
-  description: immer Guat
-
-
-
+  name: Third Item
+  price: 15
+  description: This is another menu item, maybe number 3
