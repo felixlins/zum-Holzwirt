@@ -1,13 +1,18 @@
 ---
 -
-  name: Heiligabend
-  date: 2020-12-24
-  times: 11:00 - 14:00 Uhr
--
-  name: 1. Weihnachtsfeiertag
-  date: 2020-12-25
-  times: 11:00 - 14:00 Uhr
--
-  name: 2. Weihnachtsfeiertag
-  date: 2020-12-25
-  times: 11:00 - 14:00 Uhr
+  name: Sonntag
+  date: bis auf weiteres
+  times: 11:00 - 13:30 Uhr
+# -
+#   name: 1. Weihnachtsfeiertag
+#   date: 2020-12-25
+#   times: 11:00 - 14:00 Uhr
+# -
+#   name: 2. Weihnachtsfeiertag
+#   date: 2020-12-25
+#   times: 11:00 - 14:00 Uhr
+# -
+#   name: 3. Weihnachtsfeiertag
+#   date: 2020-12-26
+#   times: 11:00 - 14:00 Uhr
+
