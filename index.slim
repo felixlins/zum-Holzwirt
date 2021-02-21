@@ -32,16 +32,15 @@ html
         .container.p-3
           h3.title Speisekarte
           .columns.is-multiline
-
+          br
             - YAML.load_file("menuitems.yml").each do |item|
-              .column.is-half.menuitem
+              .column.is_fullwidth.menuitem
                 .columns
                   .column.name: h3 = item["name"]
                   .column.dashes
                   .column.price: h3 &euro;#{item["price"]}
                 p = item["description"]
-          h3.subtitle
-           | Bitte beachten Sie, dass in unserem Lokal keine Kartenzahlung möglich ist.
+          | Bitte beachten Sie, dass in unserem Lokal keine Kartenzahlung möglich ist.
 
       section
         .container.p-3
@@ -57,8 +56,17 @@ html
                   td = date["name"]
                   td = date["date"]
                   td = date["times"]
-          h3.subtitle
-            |auf Grund der besonderen Situation kann das Essen derzeit nur abgeholt werden.
+          br
+          br
+          |auf Grund der besonderen Situation kann das Essen derzeit nur abgeholt werden.
+
+      section
+        .container.p-3
+          h3.title Bildergalerie
+          .column
+            figure.image
+            img src="img/image002.jpg"
+
 
     footer.footer
       h5.title.is-5 Impressum
@@ -68,9 +76,8 @@ html
           p Gastwirt
           p Holz 7
           p 84405 Dorfen
-        .column.is-one-quarter
           p Telefon: +49(0)80831274
-          p E-Mail: Johann.numberger@icloud.com
+  
       p 
         | Copyright &copy; 
         | #{Time.now.year} 

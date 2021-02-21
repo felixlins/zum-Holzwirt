@@ -1,40 +1,46 @@
 ---
 - 
-  name: Ofenfrischer Krustenbraten
-  price: 8.90
-  description: serviert mit zwei Semmelknödel und Biersauce
+  name: Rehragout 
+  price: 9.80
+  description: serviert mit frischen Hauberlingen
 - 
-  name: Zwiebelrostbraten
-  price: 18.00
-  description: serviert mit Röstzwiebeln, Sauce und Pommes Frites
-- 
-  name: Ochsenbraten
+  name: Frischer Kalbsbraten
   price: 11.50
-  description: serviert mit zwei Semmelknödel und Blaukraut
+  description: serviert mit Rahmsauce und Butterspätzle
 - 
-  name: Schweineschnitzel „Wiener Art“ 
-  price: 9.50
-  description: serviert mit Pommes Frites
-- 
-  name: Schweinelendchen 
-  price: 10.90
-  description: serviert mit Spätzle und Rahmsauce
-- 
-  name: Hirschedelgulasch
+  name: Ofenfrische halbe Ente
   price: 13.90
-  description: serviert mit Spätzle und Blaukraut 
+  description: serviert mit Kartoffelknödel und Blaukraut
 - 
-  name: Karibisches Feuer 
-  price: 11.50
-  description: serviert mit Butterreis
+  name: Puten-Thai-Curry in Kokossauce
+  price: 10.90
+  description: serviert mit Basmati-Ingwerreis
 - 
-  name: Knödel mit Sauce | Spätzle mit Sauce  
+  name: Schweineschnitzel “Wiener Art” 
+  price: 09.50
+  description: serviert mit Pommes frites
+- 
+  name: Balkanspieß pikant
+  price: 11.00
+  description: serviert mit Pommes frites 
+- 
+  name: Schwabenteller 
+  price: 11.90
+  description: Schweinefilet mit Schwammerlsauce serviert mit Butterspätzle
+-  
+  name: Zwiebelrostbraten von der Rinderlende 
+  price: 18.00
+  description: serviert mit Röstzwiebeln und Country Potatoes
+-
+  name: Spätzle mit Sauce  
   price: 3.00
   description: für unsere Kleinen oder als Beilage
 - 
   name: Beilagensalat  
   price: 2.80
   description: immer Guat
+
+
 
 
 
