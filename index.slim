@@ -57,28 +57,37 @@ html
                   td = date["date"]
                   td = date["times"]
           br
-          br
           |auf Grund der besonderen Situation kann das Essen derzeit nur abgeholt werden.
 
       section
         .container.p-3
           h3.title Bildergalerie
-          .column
-            figure.image
-            img src="img/image002.jpg"
+          <ul id="galerie">
+            <figure tabindex="1"> <img src="img/test1.jpeg">
+            </figure>
+            <figure tabindex="1"> <img src="img/test2.jpeg">
+            </figure>
+            <figure tabindex="1"> <img src="img/test3.jpeg">
+            </figure>
+            <figure tabindex="1"> <img src="img/test4.jpeg">
+            </figure>
+            <figure tabindex="1"> <img src="img/test5.jpeg">
+            </figure>
+            <figure tabindex="1"> <img src="img/logo.png">
+            </figure>
+          </ul>
 
 
-    footer.footer
-      h5.title.is-5 Impressum
-      .columns
-        .column.is-one-quarter
-          p Johann Numberger
-          p Gastwirt
-          p Holz 7
-          p 84405 Dorfen
-          p Telefon: +49(0)80831274
-  
-      p 
-        | Copyright &copy; 
-        | #{Time.now.year} 
-        strong Zum Holzwirt
+      footer.footer
+        h5.title.is-5 Impressum
+        .columns
+          .column.is-one-quarter
+            p Johann Numberger
+            p Gastwirt
+            p Holz 7
+            p 84405 Dorfen
+            p Telefon: +49(0)80831274
+        p 
+          | Copyright &copy; 
+          | #{Time.now.year} 
+          strong Zum Holzwirt

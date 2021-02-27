@@ -50,5 +50,51 @@ footer {
   line-height: 1.125;
 }
 
+#galerie figure {
+  background: #FFF;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+  display: inline-block;
+  height: 10em;
+  margin: 0 0 1em 2em;
+  overflow: hidden;
+  padding: 0;
+  width: 10em;
+  transition: all 0.25s ease-in;
+}
+
+#galerie figure img {
+  width: 12em;
+  height: 12em;
+}
+
+#galerie figure:hover,
+#galerie figure:focus {
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.8);
+  margin: -1em 0px 0 20px;
+  padding: 5px 5px 30px 5px;
+  width: 12em;
+  z-index: 2;
+  transform: scale(2);
+}
+
+
+#galerie figure:nth-child(3n-2):hover,
+#galerie figure:nth-child(3n-2):focus {
+  transform: scale(2) rotate(-2.5deg);
+}
+
+#galerie figure:nth-child(5n):hover,
+#galerie figure:nth-child(5n):focus {
+  transform: scale(2) rotate(2.5deg);
+}
+
+#galerie:after {
+  clear: both;
+  content: " ";
+  display: block;
+}
+
+
+
 
 
