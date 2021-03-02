@@ -38,7 +38,7 @@ html
                 .columns
                   .column.name: h3 = item["name"]
                   .column.dashes
-                  .column.price: h3 &euro;#{item["price"]}
+                  .column.price: h3 &euro;#{"%.2f" % item["price"]}
                 p = item["description"]
           p.Kl1 Bitte beachten Sie, dass in unserem Lokal keine Kartenzahlung möglich ist.
 
