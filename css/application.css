@@ -17,11 +17,8 @@ section {
 }
 
 footer {
-  margin-bottom: 5em;
   font-size: 0.8rem;
 }
-
-
 
 #wrapper {
   flex: 1;
