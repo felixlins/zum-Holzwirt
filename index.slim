@@ -31,19 +31,19 @@ html
       section
         .container.p-3
           h3.title Speisekarte
-          br
-            - YAML.load_file("menuitems.yml").each do |item|
-              .menuitem.block
-                .columns
-                  .column.name: h3 = item["name"]
-                  .column.dashes
-                  .column.price: h3 &euro;#{"%.2f" % item["price"]}
-                p = item["description"]
-          p.Kl1 Bitte beachten Sie, dass in unserem Lokal keine Kartenzahlung möglich ist.
+          h5.subtitle Bitte beachten Sie, dass in unserem Lokal keine Kartenzahlung möglich ist.
+          - YAML.load_file("menuitems.yml").each do |item|
+            .menuitem.block
+              .columns
+                .column.name: h3 = item["name"]
+                .column.dashes
+                .column.price: h3 &euro;#{"%.2f" % item["price"]}
+              p = item["description"]
 
       section
         .container.p-3
           h3.title Öffnungszeiten
+          h5.subtitle auf Grund der besonderen Situation kann das Essen derzeit nur abgeholt werden.
           table.table.is-striped.is-fullwidth.is-hoverable
             thead
               th.has-text-left Tag
@@ -55,7 +55,6 @@ html
                   td = date["name"]
                   td = date["date"]
                   td = date["times"]
-          p.Kl1 auf Grund der besonderen Situation kann das Essen derzeit nur abgeholt werden.
 
       section
         .container.p-3
@@ -70,9 +69,11 @@ html
             figure: img src="img/test11.jpeg"
             figure: img src="img/test12.jpeg"
             figure: img src="img/test13.jpeg"
-          br
-          p.Kl2 Wir freuen uns auf Sie
-          p.Kl3 Familie Numberger
+
+        .block.p-5
+          .has-text-centered.is-size-4.has-text-weight-bold
+            p Wir freuen uns auf Sie
+            p Familie Numberger
 
       footer.footer
         h5.title.is-5 Impressum
