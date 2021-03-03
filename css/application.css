@@ -17,13 +17,11 @@ section {
 }
 
 footer {
-  margin-bottom: 5em;
   font-size: 0.8rem;
 }
 
 @font-face { font-family: 'altbayrisch';
              src: 'fonts/FrakturShadowed.ttf'  format('altbayrisch');}
-
 
 #wrapper {
   flex: 1;
@@ -39,18 +37,26 @@ footer {
 
 .menuitem .columns {
   display: flex;
+  margin-bottom: 0.3rem;
+}
+
+.menuitem .name {
+  flex:none;
+  padding-bottom: 0;
+  max-width: calc(100vw - 150px);
 }
 
 .menuitem .dashes {
   border-bottom: 1px dashed #636166;
 }
 
-.menuitem .name, .menuitem .price {
+.menuitem .price {
   flex:none;
   padding-bottom: 0;
+  align-self: flex-end;
 }
 
-.menuitem  h3 {
+.menuitem h3 {
   font-size: 1.5rem;
   font-weight: 600;
   line-height: 1.125;
@@ -117,8 +123,3 @@ footer {
   content: " ";
   display: block;
 }
-
-
-
-
-

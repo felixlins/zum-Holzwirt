@@ -31,16 +31,15 @@ html
       section
         .container.p-3
           h3.title Speisekarte
-          .columns.is-multiline
           br
             - YAML.load_file("menuitems.yml").each do |item|
-              .column.is_fullwidth.menuitem
+              .menuitem.block
                 .columns
                   .column.name: h3 = item["name"]
                   .column.dashes
-                  .column.price: h3 &euro;#{item["price"]}
+                  .column.price: h3 &euro;#{"%.2f" % item["price"]}
                 p = item["description"]
-          <p class="Kl1">  Bitte beachten Sie, dass in unserem Lokal keine Kartenzahlung möglich ist.
+          p.Kl1 Bitte beachten Sie, dass in unserem Lokal keine Kartenzahlung möglich ist.
 
       section
         .container.p-3
@@ -56,45 +55,24 @@ html
                   td = date["name"]
                   td = date["date"]
                   td = date["times"]
-          <p class="Kl1"> auf Grund der besonderen Situation kann das Essen derzeit nur abgeholt werden.
+          p.Kl1 auf Grund der besonderen Situation kann das Essen derzeit nur abgeholt werden.
 
       section
         .container.p-3
           h3.title Bildergalerie
-          <ul id="galerie">
-            <figure tabindex="1"> <img src="img/test1.jpeg">
-            </figure>
-            / <figure tabindex="1"> <img src="img/test2.jpeg">
-            / </figure>
-            / <figure tabindex="1"> <img src="img/test3.jpeg">
-            / </figure>
-            <figure tabindex="1"> <img src="img/test5.jpeg">
-            </figure>
-            <figure tabindex="1"> <img src="img/test4.jpeg">
-            </figure>
-            / <figure tabindex="1"> <img src="img/test6.jpeg">
-            / </figure>
-            <figure tabindex="1"> <img src="img/test7.jpeg">
-            </figure>
-            <figure tabindex="1"> <img src="img/test8.jpeg">
-            </figure>
-            / <figure tabindex="1"> <img src="img/test9.jpeg">
-            / </figure>
-            <figure tabindex="1"> <img src="img/test12.jpeg">
-            </figure>
-            <figure tabindex="1"> <img src="img/test11.jpeg">
-            </figure>
-            <figure tabindex="1"> <img src="img/test10.jpeg">
-            </figure>
-            <figure tabindex="1"> <img src="img/test13.jpeg">
-          </ul>
+          ul#galerie
+            figure: img src="img/test1.jpeg"
+            figure: img src="img/test4.jpeg"
+            figure: img src="img/test5.jpeg"
+            figure: img src="img/test7.jpeg"
+            figure: img src="img/test8.jpeg"
+            figure: img src="img/test10.jpeg"
+            figure: img src="img/test11.jpeg"
+            figure: img src="img/test12.jpeg"
+            figure: img src="img/test13.jpeg"
           br
-          <p cla="Kl2"> Wir freuen uns auf Sie
-          <p clan="Kl3"> Familie Numberger
-
-
-
-
+          p.Kl2 Wir freuen uns auf Sie
+          p.Kl3 Familie Numberger
 
       footer.footer
         h5.title.is-5 Impressum
