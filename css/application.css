@@ -104,3 +104,12 @@ section {
   content: " ";
   display: block;
 }
+
+footer a {
+  color: #000;
+  text-decoration: underline;
+}
+
+footer a:hover {
+  text-decoration: none;
+}
