@@ -32,13 +32,20 @@ footer {
   display: flex;
 }
 
+.menuitem .name {
+  flex:none;
+  padding-bottom: 0;
+  max-width: 50vw;
+}
+
 .menuitem .dashes {
   border-bottom: 1px dashed #636166;
 }
 
-.menuitem .name, .menuitem .price {
+.menuitem .price {
   flex:none;
   padding-bottom: 0;
+  align-self: flex-end;
 }
 
 .menuitem  h3 {
