@@ -21,6 +21,8 @@ footer {
   font-size: 0.8rem;
 }
 
+@font-face { font-family: 'altbayrisch';
+             src: 'fonts/FrakturShadowed.ttf'  format('altbayrisch');}
 
 
 #wrapper {
@@ -29,6 +31,10 @@ footer {
 
 #title {
   background-color: #BDBA9B;
+}
+
+#title h1 {
+  font-family: 'altbayrisch';
 }
 
 .menuitem .columns {
@@ -76,13 +82,13 @@ footer {
   margin: 0 0 1em 2em;
   overflow: hidden;
   padding: 0;
-  width: 10em;
+  height: : 12em;
   transition: all 0.25s ease-in;
 }
 
 #galerie figure img {
-  width: 12em;
-  height: 12em;
+  width:flex;
+  height:12em;
 }
 
 #galerie figure:hover,
@@ -90,7 +96,7 @@ footer {
   box-shadow: 0 15px 35px rgba(0, 0, 0, 0.8);
   margin: -1em 0px 0 20px;
   padding: 5px 5px 30px 5px;
-  width: 12em;
+  height: 12em;
   z-index: 2;
   transform: scale(2);
 }
