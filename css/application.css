@@ -30,12 +30,13 @@ footer {
 
 .menuitem .columns {
   display: flex;
+  margin-bottom: 0.3rem;
 }
 
 .menuitem .name {
   flex:none;
   padding-bottom: 0;
-  max-width: 50vw;
+  max-width: calc(100vw - 150px);
 }
 
 .menuitem .dashes {
@@ -48,7 +49,7 @@ footer {
   align-self: flex-end;
 }
 
-.menuitem  h3 {
+.menuitem h3 {
   font-size: 1.5rem;
   font-weight: 600;
   line-height: 1.125;

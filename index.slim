@@ -31,10 +31,9 @@ html
       section
         .container.p-3
           h3.title Speisekarte
-          .columns.is-multiline
           br
             - YAML.load_file("menuitems.yml").each do |item|
-              .column.is_fullwidth.menuitem
+              .menuitem.block
                 .columns
                   .column.name: h3 = item["name"]
                   .column.dashes
