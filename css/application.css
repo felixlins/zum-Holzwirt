@@ -48,6 +48,7 @@ section {
 
 .menuitem .dashes {
   border-bottom: 1px dashed #636166;
+  align-self: flex-end;
 }
 
 .menuitem .price {
