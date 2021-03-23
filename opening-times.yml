@@ -3,10 +3,10 @@
   name: Sonntag
   date: 28.02. bis auf weiteres
   times: 11:00 - 13:30 Uhr
-# -
-#   name: 1. Weihnachtsfeiertag
-#   date: 2020-12-25
-#   times: 11:00 - 14:00 Uhr
+-
+  name: zusätzlich Ostermontag
+  date: 04.05. 
+  times: 11:00 - 13:30 Uhr
 # -
 #   name: 2. Weihnachtsfeiertag
 #   date: 2020-12-25

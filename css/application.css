@@ -64,22 +64,22 @@ section {
 
 #galerie figure {
   background: #FFF;
-  box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
   display: inline-block;
-  height: 10em;
+  height: 14em;
   margin: 0 0 1em 2em;
   overflow: hidden;
   padding: 0;
-  height: : 12em;
+  height: : 14em;
   transition: all 0.25s ease-in;
 }
 
 #galerie figure img {
   width:flex;
-  height:12em;
+  height:18em;
 }
 
-#galerie figure:hover,
+
+/*#galerie figure:hover,
 #galerie figure:focus {
   box-shadow: 0 15px 35px rgba(0, 0, 0, 0.8);
   margin: -1em 0px 0 20px;
@@ -104,7 +104,7 @@ section {
   clear: both;
   content: " ";
   display: block;
-}
+}*/
 
 footer a {
   color: #000;
