@@ -28,28 +28,28 @@ html
                 figure.image
                   img src="img/logo.png"
 
-      section
-        .container.p-3
-          h3.title Speisekarte
-          h5.subtitle Bitte beachten Sie, dass in unserem Lokal keine Kartenzahlung möglich ist.
-          - YAML.load_file("menuitems.yml").each do |item|
-            .menuitem.block
-              .columns
-                .column.name: h3 = item["name"]
-                .column.dashes
-                .column.price: h3 &euro;#{"%.2f" % item["price"]}
-              p = item["description"]
+      / section
+      /   .container.p-3
+      /     h3.title Speisekarte
+      /     h5.subtitle Bitte beachten Sie, dass in unserem Lokal keine Kartenzahlung möglich ist.
+      /     - YAML.load_file("menuitems.yml").each do |item|
+      /       .menuitem.block
+      /         .columns
+      /           .column.name: h3 = item["name"]
+      /           .column.dashes
+      /           .column.price: h3 &euro;#{"%.2f" % item["price"]}
+      /         p = item["description"]
 
-      section
-        .container.p-3
-          h3.title Ausblick Ostermenü
-          - YAML.load_file("menuitems_ostern.yml").each do |item|
-            .menuitem.block
-              .columns
-                .column.name: h3 = item["name"]
-                .column.dashes
-                .column.price: h3 &euro;#{"%.2f" % item["price"]}
-              p = item["description"]
+      / section
+      /   .container.p-3
+      /     h3.title Ausblick Ostermenü
+      /     - YAML.load_file("menuitems_ostern.yml").each do |item|
+      /       .menuitem.block
+      /         .columns
+      /           .column.name: h3 = item["name"]
+      /           .column.dashes
+      /           .column.price: h3 &euro;#{"%.2f" % item["price"]}
+      /         p = item["description"]
 
       section
         .container.p-3
