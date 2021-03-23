@@ -16,46 +16,47 @@ html
             .columns
               .column
                 h1.title zum Holzwirt
-                h2.subtitle 
-                  | Ausflugsgaststätte im schönen Isental
-                  br
-                  | Essen für „Dahoam“ 
-                  br
-                  | Besonderer Service in besonderen Zeiten
-                  br
-                  | Vorbestellung unter 08083/1274
+                .block.p-5
+                  h2.subtitle 
+                    | Ausflugsgaststätte im schönen Isental
+                    br
+                    | Essen für „Dahoam“ 
+                    br
+                    | Besonderer Service in besonderen Zeiten
+                    br
+                    | Vorbestellung unter 08083/1274
               .column
                 figure.image
                   img src="img/logo.png"
 
-      / section
-      /   .container.p-3
-      /     h3.title Speisekarte
-      /     h5.subtitle Bitte beachten Sie, dass in unserem Lokal keine Kartenzahlung möglich ist.
-      /     - YAML.load_file("menuitems.yml").each do |item|
-      /       .menuitem.block
-      /         .columns
-      /           .column.name: h3 = item["name"]
-      /           .column.dashes
-      /           .column.price: h3 &euro;#{"%.2f" % item["price"]}
-      /         p = item["description"]
+      section
+        .container.p-3
+          h3.title Speisekarte
+          h5.subtitle Bitte beachten Sie, dass in unserem Lokal keine Kartenzahlung möglich ist.
+          - YAML.load_file("menuitems.yml").each do |item|
+            .menuitem.block
+              .columns
+                .column.name: h3 = item["name"]
+                .column.dashes
+                .column.price: h3 &euro;#{"%.2f" % item["price"]}
+              p = item["description"]
 
-      / section
-      /   .container.p-3
-      /     h3.title Ausblick Ostermenü
-      /     - YAML.load_file("menuitems_ostern.yml").each do |item|
-      /       .menuitem.block
-      /         .columns
-      /           .column.name: h3 = item["name"]
-      /           .column.dashes
-      /           .column.price: h3 &euro;#{"%.2f" % item["price"]}
-      /         p = item["description"]
+      section
+        .container.p-3
+          h3.title Ausblick Ostermenü
+          - YAML.load_file("menuitems_ostern.yml").each do |item|
+            .menuitem.block
+              .columns
+                .column.name: h3 = item["name"]
+                .column.dashes
+                .column.price: h3 &euro;#{"%.2f" % item["price"]}
+              p = item["description"]
 
       section
         .container.p-3
           h3.title Öffnungszeiten
           h5.subtitle auf Grund der besonderen Situation kann das Essen derzeit nur abgeholt werden.
-          table.table.is-striped.is-fullwidth.is-hoverable
+          table.table.is-fullwidth.is-hoverable
             thead
               th.has-text-left Tag
               th.has-text-left Datum

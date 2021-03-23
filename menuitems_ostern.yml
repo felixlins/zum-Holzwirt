@@ -1,7 +1,7 @@
 - 
   name: Spargel-Ingwersuppe  
   price: 3.00
-  description: 
+  description: zur Vorspeise
 - 
   name: Rehragout 
   price: 09.80
@@ -12,7 +12,7 @@
   description: serviert mit Semmelknödel und Biersauce
 - 
   name: Schweinelendchen 
-  price: 10,90
+  price: 10.90
   description: serviert mit Spätzle und Pfeffersauce 
 - 
   name: Balkanspieß
@@ -41,7 +41,7 @@
 - 
   name: Frischer deutscher Stangenspargel mit Sauce Hollandaise
   price: 11.80
-  description: serviert mit Kartoffeln (wahlweise mit Schweinesteak oder Schnitzel - Aufpreis 3.90)
+  description: serviert mit Kartoffeln (wahlweise mit Schweinesteak oder Schnitzel - Aufpreis €3.90)
 - 
   name: Spätzle mit Sauce  
   price: 3.00
