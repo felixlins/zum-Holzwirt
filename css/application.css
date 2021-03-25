@@ -41,9 +41,8 @@ section {
 }
 
 .menuitem .name {
-  flex:none;
   padding-bottom: 0;
-  max-width: calc(100vw - 150px);
+  max-width: calc(100vw - 120px);
 }
 
 .menuitem .dashes {
