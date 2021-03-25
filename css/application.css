@@ -46,14 +46,14 @@ section {
   max-width: calc(100vw - 120px);
 }
 
-/* Jedes menuitem nur eine Zeile */
+/* Jedes menuitem nur eine Zeile 
 .menuitem .name h3 {
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
   padding-bottom: 2px;
 }
-
+*/
 .menuitem .dashes {
   margin-bottom: 0.1rem;
   border-bottom: 1px dashed #636166;
