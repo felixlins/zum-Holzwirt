@@ -32,12 +32,12 @@ section {
 #title h1 {
   font-family: 'altbayrisch';
   font-size: 4.5rem;
-  color: #946000ad;
+  color: #946000;
 }
 
 .menuitem .columns {
   display: flex;
-  margin-bottom: 0.3rem;
+  margin-bottom: 0.2rem;
 }
 
 .menuitem .name {
@@ -55,6 +55,7 @@ section {
 }
 
 .menuitem .dashes {
+  margin-bottom: 0.1rem;
   border-bottom: 1px dashed #636166;
   align-self: flex-end;
 }
