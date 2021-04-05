@@ -16,23 +16,25 @@ html
             .columns
               .column
                 h1.title zum Holzwirt
-                .block.p-5
-                  h2.subtitle 
-                    | Ausflugsgaststätte im schönen Isental
-                    br
-                    | Essen für „Dahoam“ 
-                    br
-                    | Besonderer Service in besonderen Zeiten
-                    br
-                    | Vorbestellung unter 08083/1274
               .column
                 figure.image
                   img src="img/logo.png"
 
       section
         .container.p-3
+          h3.title Unser Lokal
+          h5.subtitle
+            p Wir sind ein kleines familiengeführtes bayrisches Lokal ca. 5 min entfernt von der Autobahnausfahrt A94 Lengdorf. Wunderschön gelegen auf einer kleinen Anhöhe im schönen Isental. Derzeit bieten wir auf Grund der besonderen Situation 
+            .block.p-1
+              .has-text-centered.is-size-4.has-text-weight-bold
+                |Essen für „Dahoam“ 
+            p Bitte beachten Sie, dass in unserem Lokal keine Kartenzahlung möglich ist. 
+            p Vorbestellung unter 08083/1274
+
+
+      section
+        .container.p-3
           h3.title Speisekarte
-          h5.subtitle Bitte beachten Sie, dass in unserem Lokal keine Kartenzahlung möglich ist.
           - YAML.load_file("menuitems_ostern.yml").each do |item|
             .menuitem.block
               .columns
