@@ -1,12 +1,12 @@
 ---
 -
-  name: Ostersonntag
+  name: jeden Sonntag
   date: 04.04. bis auf weiteres
   times: 11:00 - 13:30 Uhr
--
-  name: zusätzlich Ostermontag
-  date: 05.04. 
-  times: 11:00 - 13:30 Uhr
+#-
+# name: zusätzlich Ostermontag
+#  date: 05.04. 
+#  times: 11:00 - 13:30 Uhr
 # -
 #   name: 2. Weihnachtsfeiertag
 #   date: 2020-12-25
