@@ -22,10 +22,6 @@
   name: Cordon bleu 
   price: 11.50
   description: serviert mit Pommes frites 
-- 
-  name: Zarte Lammkeule
-  price: 12.80
-  description: serviert mit Kartoffelgratin, Speckbohnen und Rosmarinsauce 
 -  
   name: Frisches Lachsfilet 
   price: 15.80
