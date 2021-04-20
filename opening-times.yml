@@ -1,18 +1,13 @@
----
 -
   name: jeden Sonntag
-  date: 11.04. bis auf weiteres
+  date: 02.05. bis auf weiteres
   times: 11:00 - 13:30 Uhr
-#-
-# name: zusätzlich Ostermontag
-#  date: 05.04. 
-#  times: 11:00 - 13:30 Uhr
-# -
-#   name: 2. Weihnachtsfeiertag
-#   date: 2020-12-25
-#   times: 11:00 - 14:00 Uhr
-# -
-#   name: 3. Weihnachtsfeiertag
-#   date: 2020-12-26
-#   times: 11:00 - 14:00 Uhr
+-
+  name: Samstag erster Maifeiertag
+  date: 01.05. 
+  times: 11:00 - 13:30 Uhr
+-
+  name: Donnerstag Christi-Himmelfahrt
+  date: 13.05.
+  times: 11:00 - 13:30 Uhr
 

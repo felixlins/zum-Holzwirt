@@ -1,35 +1,47 @@
 - 
-  name: Rehragout 
-  price: 9.80
-  description: serviert mit frischen Hauberlingen
+  name: Spargel-Ingwersuppe 
+  price: 3.00
+  description: zur Vorspeise
 - 
-  name: Frischer Kalbsbraten
-  price: 11.50
-  description: serviert mit Rahmsauce und Butterspätzle
+  name: „Holzwirt-Burger“ 
+  price: 10.50
+  description: serviert mit Country Potatoes
 - 
-  name: Ofenfrische halbe Ente
+  name: Ofenfrische halbe Ente 
   price: 13.90
-  description: serviert mit Kartoffelknödel und Blaukraut
+  description: serviert mit Kartoffelknödel, Blaukraut und Sauce
+-
+  name: Schwabenteller 
+  price: 11.90
+  description: Schweinefilet serviert mit Butterspätzle und Schwammerlsauce
+-
+  name: Deutscher Stangenspargel 
+  price: 11.80
+  description: serviert mit Kartoffeln und Sauce Hollandaise (wahlweise mit kleinem Schnitzel-Aufpreis €3.90 oder Lachsfilet-Aufpreis €5.80)
 - 
-  name: Puten-Thai-Curry in Kokossauce
-  price: 10.90
-  description: serviert mit Basmati-Ingwerreis
+  name: Frischer Kalbsrahmbraten 
+  price: 11.50
+  description: serviert mit hausgemachten Spätzle
+- 
+  name: Rinderbraten „Burgunder Art“ 
+  price: 11.50
+  description: serviert mit Kartoffelknödel und Blaukraut 
+- 
+  name: Pfeffersteak von der Rinderlende 
+  price: 18.00
+  description: serviert mit Pommes frites 
+-  
+  name: Schweinelendchen „Balkan Art“ 
+  price: 18.00
+  description: serviert mit Butterreis und feuriger Sauce  
 - 
   name: Schweineschnitzel “Wiener Art” 
   price: 09.50
   description: serviert mit Pommes frites
 - 
-  name: Balkanspieß pikant
-  price: 11.00
-  description: serviert mit Pommes frites 
-- 
-  name: Schwabenteller 
-  price: 11.90
-  description: Schweinefilet mit Schwammerlsauce serviert mit Butterspätzle
--  
-  name: Zwiebelrostbraten von der Rinderlende 
-  price: 18.00
-  description: serviert mit Röstzwiebeln und Country Potatoes
+  name: Kinderschnitzel “Wiener Art” 
+  price: 06.50
+  description: serviert mit Pommes frites
 -
   name: Spätzle mit Sauce  
   price: 3.00
@@ -38,6 +50,10 @@
   name: Beilagensalat  
   price: 2.80
   description: immer Guad
+
+
+
+
 
 
 
