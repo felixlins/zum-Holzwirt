@@ -5,7 +5,9 @@ html
     meta content="width=device-width, initial-scale=1" name="viewport"
     title zum Holzwirt
     link href="css/bulma.min.css" rel="stylesheet"
+    link href="css/lightgallery.min.css" rel="stylesheet"
     link href="css/application.css" rel="stylesheet"
+    script src="js/lightgallery.min.js"
 
   body
     #wrapper
@@ -62,20 +64,23 @@ html
       section
         .container.p-3
           h3.title Bildergalerie
-          ul#galerie
-            figure: img src="img/test1.jpeg" 
-            figure: img src="img/test2.jpeg"
-            figure: img src="img/test3.jpeg"
-            figure: img src="img/test4.jpeg"
-            figure: img src="img/test5.jpeg"
-            figure: img src="img/test6.jpeg"
-            figure: img src="img/test7.jpeg"
-            figure: img src="img/test8.jpeg"
-            figure: img src="img/test9.jpeg" 
-            figure: img src="img/test10.jpeg"
-            figure: img src="img/test11.jpeg" 
-            figure: img src="img/test12.jpeg"
-            figure: img src="img/test13.jpeg"
+          #gallery
+            a href="img/gallery/large/holzwirt-1.jpg": img src="img/gallery/small/holzwirt-1.jpg" 
+            a href="img/gallery/large/holzwirt-2.jpg": img src="img/gallery/small/holzwirt-2.jpg"
+            a href="img/gallery/large/holzwirt-3.jpg": img src="img/gallery/small/holzwirt-3.jpg"
+            a href="img/gallery/large/holzwirt-4.jpg": img src="img/gallery/small/holzwirt-4.jpg"
+            a href="img/gallery/large/holzwirt-5.jpg": img src="img/gallery/small/holzwirt-5.jpg"
+            a href="img/gallery/large/holzwirt-6.jpg": img src="img/gallery/small/holzwirt-6.jpg"
+            a href="img/gallery/large/holzwirt-7.jpg": img src="img/gallery/small/holzwirt-7.jpg"
+            a href="img/gallery/large/holzwirt-8.jpg": img src="img/gallery/small/holzwirt-8.jpg"
+            a href="img/gallery/large/holzwirt-9.jpg": img src="img/gallery/small/holzwirt-9.jpg" 
+            a href="img/gallery/large/holzwirt-10.jpg": img src="img/gallery/small/holzwirt-10.jpg"
+            a href="img/gallery/large/holzwirt-11.jpg": img src="img/gallery/small/holzwirt-11.jpg" 
+            a href="img/gallery/large/holzwirt-12.jpg": img src="img/gallery/small/holzwirt-12.jpg"
+            a href="img/gallery/large/holzwirt-13.jpg": img src="img/gallery/small/holzwirt-13.jpg"
+
+        javascript:
+          lightGallery(document.getElementById('gallery'));
 
         .block.p-5
           .has-text-centered.is-size-4.has-text-weight-bold

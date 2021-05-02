@@ -84,44 +84,6 @@ section {
   transition: all 0.25s ease-in;
 }
 
-#galerie figure img {
-  width:flex;
-  height:18em;
-}
-
-
-/*#galerie figure:hover,
-#galerie figure:focus {
-  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.8);
-  margin: -1em 0px 0 20px;
-  padding: 5px 5px 30px 5px;
-  height: 12em;
-  z-index: 2;
-  transform: scale(2);
-}
-
-
-#galerie figure:nth-child(3n-2):hover,
-#galerie figure:nth-child(3n-2):focus {
-  transform: scale(2) rotate(-2.5deg);
-}
-
-#galerie figure:nth-child(5n):hover,
-#galerie figure:nth-child(5n):focus {
-  transform: scale(2) rotate(2.5deg);
-}
-
-#galerie:after {
-  clear: both;
-  content: " ";
-  display: block;
-}*/
-
-footer a {
-  color: #000;
-  text-decoration: underline;
-}
-
-footer a:hover {
-  text-decoration: none;
+#gallery img {
+  margin: 10px;
 }
