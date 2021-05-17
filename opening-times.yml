@@ -1,9 +1,15 @@
 -
   name: jeden Sonntag
-  date: 09.05. bis auf weiteres
+  date: 23.05. bis auf weiteres
   times: 11:00 - 13:30 Uhr
 -
-  name: Donnerstag Christi-Himmelfahrt
-  date: 13.05.
+  name: Pfingstmontag
+  date: 24.05.
   times: 11:00 - 13:30 Uhr
+-
+  name: Fronleichnam
+  date: 03.06.
+  times: 11:00 - 13:30 Uhr
+
+
 
