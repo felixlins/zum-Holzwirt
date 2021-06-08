@@ -1,55 +1,53 @@
-- 
-  name: Spargel-Ingwersuppe 
-  price: 3.00
-  description: zur Vorspeise
-- 
-  name: „Holzwirt-Burger“ 
-  price: 10.50
-  description: serviert mit Country Potatoes
-- 
-  name: Ofenfrische halbe Ente 
-  price: 13.90
-  description: serviert mit Kartoffelknödel, Blaukraut und Sauce
+
 -
-  name: Schwabenteller 
-  price: 11.90
-  description: Schweinefilet serviert mit Butterspätzle und Schwammerlsauce
--
-  name: Deutscher Stangenspargel 
-  price: 11.80
-  description: serviert mit Kartoffeln und Sauce Hollandaise (wahlweise mit kleinem Schnitzel-Aufpreis €3.90 oder Lachsfilet-Aufpreis €5.80)
-- 
-  name: Frischer Kalbsrahmbraten 
-  price: 11.50
-  description: serviert mit hausgemachten Spätzle
-- 
-  name: Rinderbraten „Burgunder Art“ 
-  price: 11.50
-  description: serviert mit Kartoffelknödel und Blaukraut 
-- 
-  name: Zwiebelrostbraten
-  price: 18.00
-  description: serviert mit Pommes frites und Sauce
--  
-  name: Schweinelendchen „Balkan Art“ 
-  price: 10.90
-  description: serviert mit Butterreis und feuriger Sauce  
+  name: Jägerbraten
+  price: 09.80
+  description: serviert mit Butterspätzle und Salat
 - 
   name: Schweineschnitzel “Wiener Art” 
-  price: 09.50
-  description: serviert mit Pommes frites
+  price: 10.50
+  description: serviert mit Pommes frites und Salat
 - 
-  name: Kinderschnitzel “Wiener Art” 
-  price: 06.50
-  description: serviert mit Pommes frites
--
-  name: Spätzle mit Sauce  
-  price: 3.00
-  description: für unsere Kleinen oder als Beilage
+  name: Paprikaschnitzel
+  price: 10.50
+  description: serviert mit Reis und Salat
 - 
-  name: Beilagensalat  
-  price: 2.80
-  description: immer Guad
+  name: Putensteak "natur"
+  price: 11.80
+  description: serviert mit Kräuterbutter, Reis und Salat
+-  
+  name: Schweinelendchen in Pfefferrahmsauce
+  price: 11.50
+  description: serviert mit Kroketten und Erbsen
+-  
+  name: Balkanspieß
+  price: 12.50
+  description: serviert mit Pommes frites und Salat
+- 
+  name: Frischer Kalbsrahmbraten 
+  price: 13.00
+  description: serviert mit hausgemachten Spätzle und Salat
+- 
+  name: Wiener Schnitzel vom Kalb
+  price: 15.80
+  description: serviert mit Röstinchen und Salat
+- 
+  name: Schwabenteller
+  price: 13.00
+  description: serviert mit hausgemachten Spätzle und Salat
+- 
+  name: Südseeträumerei
+  price: 13.00
+  description: Schweinefilet mit Sauce Hollandaise und Früchten, serviert mit Reis und Salat
+- 
+  name: Ratsherrnteller
+  price: 14.00
+  description: serviert mit Pommes frites, Reis, Salat und Gemüse
+- 
+  name: Zwiebelrostbraten von der Rinderlende
+  price: 19.50
+  description: serviert mit Pommes frites und Salat
+ 
 
 
 

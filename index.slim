@@ -27,19 +27,13 @@ html
           h3.title Unser Lokal
           h5.subtitle
             br
-            p Wir sind ein kleines familiengeführtes bayrisches Lokal ca. 5 min entfernt von der Autobahnausfahrt A94 Lengdorf. Wunderschön gelegen auf einer kleinen Anhöhe im schönen Isental. Derzeit bieten wir auf Grund der besonderen Situation 
-            .block.is-size-4.has-text-weight-bold.mb-5.mt-5
-              |Essen für „Dahoam“ 
+            p Wir sind ein kleines familiengeführtes bayrisches Lokal ca. 5 min entfernt von der Autobahnausfahrt A94 Lengdorf. Wunderschön gelegen auf einer kleinen Anhöhe im schönen Isental. 
             p Bitte beachten Sie, dass in unserem Lokal keine Kartenzahlung möglich ist. 
             p Vorbestellung unter 08083/1274
-            .block.is-size-4.has-text-weight-bold.mb-5.mt-5
-              |Hinweis: 
-            p Jeden Sonn- und Feiertag Biergarten bei schönem Wetter geöffnet. Bitte im Vorfeld bei Wirt erkundigen.
-
 
       section
         .container.p-3
-          h3.title Speisekarte
+          h3.title Auszug aus der Speisekarte
           - YAML.load_file("menuitems.yml").each do |item|
             .menuitem.block
               .columns
@@ -47,6 +41,8 @@ html
                 .column.dashes
                 .column.price: h3 &euro;#{"%.2f" % item["price"]}
               p = item["description"]
+          p Für Beilagenänderungen berechnen wir 0.50€.
+          p Kleine Portionen auf Anfrage (-1.50€)
 
       section
         .container.p-3
