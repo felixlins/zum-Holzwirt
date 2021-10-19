@@ -1,56 +1,54 @@
 
 -
-  name: Leberspätzlesuppe
-  price: 03.50
-  description: zur Vorspeise
-- 
-  name: Balkanbraten
-  price: 09.80
-  description: serviert mit Pommes Frites und Salat
-- 
-  name: Jägerbraten
-  price: 09.80
-  description: serviert mit hausgemachten Spätzle und Salat
+  name: Burgunderbraten
+  price: 10.80
+  description: serviert mit Kartoffelknödel und Blaukraut
 - 
   name: Schweineschnitzel "Wiener Art"
   price: 10.50
   description: serviert mit Pommes Frites und Salat
--  
-  name: Kalbsnierenbraten
-  price: 13.00
+- 
+  name: Rahmschnitzel
+  price: 10.50
   description: serviert mit hausgemachten Spätzle und Salat
--  
-  name: Balkanspieß
-  price: 12.50
+- 
+  name: Balkanschnitzel
+  price: 10.50
   description: serviert mit Pommes Frites und Salat
+-  
+  name: Putensteak "natur"
+  price: 11.80
+  description: serviert mit Kräuterbutter, Reis und Salat
+-  
+  name: Schweinesteak "Holzwirt"
+  price: 13.00
+  description: serviert mit Spargel, Schinken, Sauce Hollandaise, Pommes Frites und Salat
 -
-  name: Schwabenteller
+  name: Kalbsrahmbraten
   price: 13.00
   description: serviert mit hausgemachten Spätzle und Salat
 - 
-  name: Halbe Ente
-  price: 15.50
-  description: serviert mit Kartoffelknödel und Blaukraut
+  name: Wiener Schnitzel vom Kalb 
+  price: 15.80
+  description: serviert mit Röstinchen und Salat
 - 
-  name: Kalbshaxe
+  name: Grillteller 
   price: 13.50
-  description: serviert mit Semmelknödel und Salat
-- 
-  name: Portion Gans
-  price: 16.00
-  description: serviert mit Kartoffelknödel und Blaukraut
+  description: serviert mit Butterbohnen und Röstinchen
 - 
   name: Zwiebelrostbraten von der Rinderlende
   price: 19.50
   description: serviert mit Pommes Frites und Salat
+- 
+  name: Steak von der Rinderlende
+  price: 19.50
+  description: serviert mit Butterbohnen und Pommes Frites
+
 -
   name: Zanderfilet mit der Haut gebraten
   price: 15.80
   description: serviert mit Weißweinsauce, Butterreis und Salat
--
-  name: Kirchweihnudl
-  price: 02.80
-  description: was Süßes zum Abschluss
+
 
  
 
