@@ -15,7 +15,7 @@
   name: Balkanschnitzel
   price: 10.50
   description: serviert mit Pommes Frites und Salat
--  
+- 
   name: Putensteak "natur"
   price: 11.80
   description: serviert mit Kräuterbutter, Reis und Salat
@@ -23,12 +23,12 @@
   name: Schweinesteak "Holzwirt"
   price: 13.00
   description: serviert mit Spargel, Schinken, Sauce Hollandaise, Pommes Frites und Salat
--
+-  
   name: Kalbsrahmbraten
   price: 13.00
   description: serviert mit hausgemachten Spätzle und Salat
-- 
-  name: Wiener Schnitzel vom Kalb 
+-
+  name: Wiener Schnitzel vom Kalb
   price: 15.80
   description: serviert mit Röstinchen und Salat
 - 
@@ -43,7 +43,6 @@
   name: Steak von der Rinderlende
   price: 19.50
   description: serviert mit Butterbohnen und Pommes Frites
-
 -
   name: Zanderfilet mit der Haut gebraten
   price: 15.80
