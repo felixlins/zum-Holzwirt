@@ -1,7 +1,40 @@
 -
-  name: Freitag bis Sonntag
-  date: ab 11.09.
-  times: 11:00 Uhr bis 14:00 Uhr und ab 17:00 Uhr warme Küche, ab 14:00 Uhr Brotzeit 
+  name: Heilig Abend
+  date: 24.12.21
+  times: geschlossen
+-
+  name: 1. Weihnachtsfeiertag
+  date: 25.12.21
+  times: von 11:00 bis 15:00 Uhr
+-
+  name: 2. Weihnachtsfeiertag
+  date: 26.12.21
+  times: von 11:00 bis 15:00 Uhr
+-
+  name: Silvester
+  date: 31.12.21
+  times: von 17:00 bis 22:00 Uhr
+-
+  name: Neujahr
+  date: 01.01.22
+  times: von 11:00 bis 15:00 Uhr
+-
+  name: Sonntag
+  date: 02.01.22
+  times: von 11:00 Uhr durchgehend geöffnet
+-
+  name: Heilige Drei Könige
+  date: 06.01.22
+  times: von 11:00 Uhr durchgehend geöffnet
+-
+  name: Sonntag
+  date: 09.01.22
+  times: von 11:00 Uhr durchgehend geöffnet
+
+
+
+
+
 
 
 
