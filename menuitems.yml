@@ -1,51 +1,67 @@
 - 
+  name: Leberspätzlesuppe
+  price: 03.80
+  description: zum Beginn ein kleines Süppchen
+- 
   name: Schweinebraten
   price: 10.50
   description: serviert mit Semmelknödel und Salat
+- 
+  name: Balkanbraten
+  price: 10.50
+  description: serviert mit Pommes Frites und Salat
+- 
+  name: Jägerbraten
+  price: 10.50
+  description: serviert mit hausgemachten Spätzle und Salat
 - 
   name: Schweineschnitzel "Wiener Art"
   price: 11.50
   description: serviert mit Pommes Frites und Salat
 - 
-  name: Jägerschnitzel 
-  price: 11.50
+  name: Kalbsnierenbraten
+  price: 14.50
   description: serviert mit hausgemachten Spätzle und Salat
--
-  name: Virgina-Steak
-  price: 12.00
-  description: serviert mit Kartoffeln und Salat
-- 
-  name: Cordon Bleu
-  price: 13.50
-  description: serviert mit Pommes Frites und Salat
-- 
-  name: Putensteak "natur" mit Kräuterbutter 
-  price: 12.50
-  description: serviert mit Reis und Salat
 - 
   name: Schweinelendchen
   price: 12.50
-  description: serviert mit hausgemachten Spätzle und Salat
+  description: serviert mit Pfefferrahmsauce, Kroketten und Erbsen
 - 
-  name: "Karibisches Feuer"
-  price: 14.00
+  name: Balkanspieß
+  price: 13.80
   description: serviert mit Pommes Frites und Salat
 - 
-  name: Kalbsrahmbraten
-  price: 14.50
-  description: serviert mit hausgemachten Spätzle und Salat
--  
-  name: Wiener Schnitzel vom Kalb
-  price: 17.30
-  description: serviert mit Röstinchen und Salat
--  
-  name: Schweinefilet "Gärtnerin"
+  name: Schwabenteller
   price: 14.00
-  description: serviert mit Kartoffeln und Gemüse
+  description: serviert mit hausgemachten Spätzle und Salat
+- 
+  name: Kalbshaxe
+  price: 15.00
+  description: serviert mit Semmelknödel und Salat
 - 
   name: Zwiebelrostbraten von der Rinderlende
   price: 20.80
   description: serviert mit Pommes frites und Salat
+- 
+  name: Hirschschlegel
+  price: 16.80
+  description: serviert mit Wildsauce, Spätzle und Preiselbeerbirne
+- 
+  name: Zanderfilet mit der Haut gebraten
+  price: 16.80
+  description: serviert an Weißweinsauce mit Butterreis und Salat
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
