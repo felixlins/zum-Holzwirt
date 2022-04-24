@@ -1,16 +1,4 @@
 - 
-  name: Leberspätzlesuppe
-  price: 03.80
-  description: zum Beginn ein kleines Süppchen
-- 
-  name: Schweinebraten
-  price: 10.50
-  description: serviert mit Semmelknödel und Salat
-- 
-  name: Balkanbraten
-  price: 10.50
-  description: serviert mit Pommes Frites und Salat
-- 
   name: Jägerbraten
   price: 10.50
   description: serviert mit hausgemachten Spätzle und Salat
@@ -19,45 +7,45 @@
   price: 11.50
   description: serviert mit Pommes Frites und Salat
 - 
-  name: Kalbsnierenbraten
-  price: 14.50
-  description: serviert mit hausgemachten Spätzle und Salat
+  name: Paprikaschnitzel
+  price: 11.50
+  description: serviert mit Reis und Salat
 - 
-  name: Schweinelendchen
+  name: Putensteak "natur"
   price: 12.50
-  description: serviert mit Pfefferrahmsauce, Kroketten und Erbsen
+  description: serviert mit Kräuterbutter, Reis und Salat
+- 
+  name: Schweinelendchen in Pfefferrahmsauce
+  price: 12.50
+  description: serviert mit Kroketten und Erbsen
 - 
   name: Balkanspieß
   price: 13.80
   description: serviert mit Pommes Frites und Salat
 - 
+  name: Kalbsrahmbraten
+  price: 14.50
+  description: serviert mit hausgemachten Spätzle und Salat
+- 
+  name: Wienerschnitzel vom Kalb
+  price: 17.30
+  description: serviert mit Röstinchen und Salat
+- 
   name: Schwabenteller
   price: 14.00
   description: serviert mit hausgemachten Spätzle und Salat
 - 
-  name: Kalbshaxe
+  name: "Südseeträumerei" 
+  price: 14.00
+  description: Schweinefilet serviert mit Sc.Hollandaise, Früchten, Reis und Salat
+- 
+  name: "Ratsherrnteller"
   price: 15.00
-  description: serviert mit Semmelknödel und Salat
+  description: serviert mit Pommes frites, Reis, Gemüse und Salat
 - 
   name: Zwiebelrostbraten von der Rinderlende
   price: 20.80
   description: serviert mit Pommes frites und Salat
-- 
-  name: Hirschschlegel
-  price: 16.80
-  description: serviert mit Wildsauce, Spätzle und Preiselbeerbirne
-- 
-  name: Zanderfilet mit der Haut gebraten
-  price: 16.80
-  description: serviert an Weißweinsauce mit Butterreis und Salat
-- 
-  name: zarte Lammkeule an Rosmarinsauce
-  price: 14.90
-  description: serviert mit Karfoffelgratin und Bohne 
-
-
-
-
 
 
 
