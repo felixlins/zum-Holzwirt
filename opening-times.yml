@@ -7,9 +7,25 @@
   date: ab 10.09.
   times: durchgehend geöffnet. Warme Küche von 11 bis 14 und ab 17:00 Uhr
 - 
-  name: Allerheiligen
-  date: 01.11.2022
+  name: Heilig Abend
+  date: 24.12.2022
   times: geschlossen
+- 
+  name: 1. Weihnachtsfeiertag
+  date: 25.12.2022
+  times: durchgehend geöffnet
+- 
+  name: 2. Weihnachtsfeiertag
+  date: 26.12.2022
+  times: durchgehend geöffnet
+- 
+  name: Neujahr
+  date: 01.01.2023
+  times: geöffnet bis 15:00 Uhr
+- 
+  name: Heilig 3 König
+  date: 06.01.2023
+  times: durchgehend geöffnet
 
 
 
