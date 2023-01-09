@@ -1,63 +1,54 @@
 - 
-  name: Grießnockerlsuppe
-  price: 4.00
-  description: kleine Suppe zum Start
-- 
-  name: Balkanbraten
-  price: 11.80
-  description: serviert mit Pommes Frites und Salat
-- 
-  name: Jägerbraten
-  price: 11.80
-  description: serviert mit hausgemachten Spätzle und Salat
--
-  name: Rinderroulade "bürgerliche Art"
-  price: 14.80
-  description: serviert mit Kartoffeln und glaciertem Gemüse
+  name: Burgunderbraten
+  price: 14.00
+  description: serviert mit Kartoffelknödel und Blaukraut
 -
   name: Schweineschnitzel "Wiener Art"
   price: 12.80
   description: serviert mit Pommes Frites und Salat
 -
-  name: Cordon bleu
-  price: 14.80
-  description: serviert mit Pommes Frites und Salat
+  name: Rahmschnitzel
+  price: 12.80
+  description: serviert mit hausgemachten Spätzle und Salat
 -
-  name: Schweinelendchen in Pfefferrahmsauce
+  name: Balkanschnitzel
+  price: 12.80
+  description: serviert mit Pommes Frites und Salat
+- 
+  name: Putensteak "natur"
   price: 13.80
-  description: serviert mit Kroketten und Erbsen
+  description: serviert mit Kräuterbutter, Reis und Salat
+-
+  name: Schweinesteak "Holzwirt"
+  price: 15.50
+  description: serviert mit Schinken, Spargel, Sauce Hollandaise, Pommes Frites und Salat
 -
   name: Kalbsrahmbraten
   price: 15.80
   description: serviert mit hausgemachten Spätzle und Salat
-- 
-  name: Balkanspieß
-  price: 15.00
-  description: serviert mit Pommes Frites und Salat
 -
-  name: Schwabenteller
-  price: 15.50
-  description: serviert mit hausgemachten Spätzle und Salat
+  name: Wiener Schnitzel vom Kalb
+  price: 18.50
+  description: serviert mit Röstinchen und Salat
 -
-  name: Halbe Ente
-  price: 18.80
-  description: serviert mit Kartoffelknödel und Blaukraut
--
-  name: Schweinefilet in Haselnusskruste
-  price: 18.00
-  description: serviert mit Röstinchen, Gemüse und Salat
--
-  name: Hirschschlegel 
-  price: 17.50
-  description: serviert mit Wildsoße,Spätzle und Preiselbeerbirne
+  name: Grillteller 
+  price: 16.00
+  description: serviert mit Röstinchen und Butterbohnen
 - 
   name: Zwiebelrostbraten von der Rinderlende
   price: 22.80
   description: serviert mit Pommes Frites und Salat
 - 
+  name: Steak von der Rinderlende
+  price: 22.80
+  description: serviert mit Pommes Frites und Butterbohnen
+- 
   name: Zanderfilet mit der Haut gebraten
   price: 17.30
   description: serviert mit Weißweinsoße, Reis und Salat
+
+
+
 
 
 
