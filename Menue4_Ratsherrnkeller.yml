@@ -1,0 +1,69 @@
+- 
+  name: Jägerbraten
+  price: 10.50
+  description: serviert mit hausgemachten Spätzle und Salat
+- 
+  name: Schweineschnitzel "Wiener Art"
+  price: 11.50
+  description: serviert mit Pommes Frites und Salat
+- 
+  name: Paprikaschnitzel
+  price: 11.50
+  description: serviert mit Reis und Salat
+- 
+  name: Putensteak "natur"
+  price: 12.50
+  description: serviert mit Kräuterbutter, Reis und Salat
+- 
+  name: Schweinelendchen in Pfefferrahmsauce
+  price: 12.50
+  description: serviert mit Kroketten und Erbsen
+- 
+  name: Balkanspieß
+  price: 13.80
+  description: serviert mit Pommes Frites und Salat
+- 
+  name: Kalbsrahmbraten
+  price: 14.50
+  description: serviert mit hausgemachten Spätzle und Salat
+- 
+  name: Wienerschnitzel vom Kalb
+  price: 17.30
+  description: serviert mit Röstinchen und Salat
+- 
+  name: Schwabenteller
+  price: 14.00
+  description: serviert mit hausgemachten Spätzle und Salat
+- 
+  name: "Südseeträumerei" 
+  price: 14.00
+  description: Schweinefilet serviert mit Sc.Hollandaise, Früchten, Reis und Salat
+- 
+  name: "Ratsherrnteller"
+  price: 15.00
+  description: serviert mit Pommes frites, Reis, Gemüse und Salat
+- 
+  name: Zwiebelrostbraten von der Rinderlende
+  price: 20.80
+  description: serviert mit Pommes frites und Salat
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
