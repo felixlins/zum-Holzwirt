@@ -1,0 +1,85 @@
+- 
+  name: Grießnockerlsuppe
+  price: 4.00
+  description: kleine Suppe zum Start
+- 
+  name: Balkanbraten
+  price: 11.80
+  description: serviert mit Pommes Frites und Salat
+- 
+  name: Jägerbraten
+  price: 11.80
+  description: serviert mit hausgemachten Spätzle und Salat
+-
+  name: Rinderroulade "bürgerliche Art"
+  price: 14.80
+  description: serviert mit Kartoffeln und glaciertem Gemüse
+-
+  name: Schweineschnitzel "Wiener Art"
+  price: 12.80
+  description: serviert mit Pommes Frites und Salat
+-
+  name: Cordon bleu
+  price: 14.80
+  description: serviert mit Pommes Frites und Salat
+-
+  name: Schweinelendchen in Pfefferrahmsauce
+  price: 13.80
+  description: serviert mit Kroketten und Erbsen
+-
+  name: Kalbsrahmbraten
+  price: 15.80
+  description: serviert mit hausgemachten Spätzle und Salat
+- 
+  name: Balkanspieß
+  price: 15.00
+  description: serviert mit Pommes Frites und Salat
+-
+  name: Schwabenteller
+  price: 15.50
+  description: serviert mit hausgemachten Spätzle und Salat
+-
+  name: Halbe Ente
+  price: 18.80
+  description: serviert mit Kartoffelknödel und Blaukraut
+-
+  name: Schweinefilet in Haselnusskruste
+  price: 18.00
+  description: serviert mit Röstinchen, Gemüse und Salat
+-
+  name: Hirschschlegel 
+  price: 17.50
+  description: serviert mit Wildsoße,Spätzle und Preiselbeerbirne
+- 
+  name: Zwiebelrostbraten von der Rinderlende
+  price: 22.80
+  description: serviert mit Pommes Frites und Salat
+- 
+  name: Zanderfilet mit der Haut gebraten
+  price: 17.30
+  description: serviert mit Weißweinsoße, Reis und Salat
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
