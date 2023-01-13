@@ -1,0 +1,72 @@
+- 
+  name: Schweinebraten
+  price: 11.80
+  description: serviert mit Semmelknödel und Salat
+- 
+  name: Schweineschnitzel "Wiener Art"
+  price: 12.80
+  description: serviert mit Pommes Frites und Salat
+- 
+  name: Jägerschnitzel
+  price: 12.80
+  description: serviert mit hausgemachten Spätzle und Salat
+-
+  name: Virginia-Steak
+  price: 13.50
+  description: serviert mit Kartoffeln und Salat
+-
+  name: Cordon bleu
+  price: 14.80
+  description: serviert mit Pommes Frites und Salat
+- 
+  name: Putensteak "natur"
+  price: 13.80
+  description: serviert mit Kräuterbutter, Reis und Salat
+-
+  name: Schweinelendchen
+  price: 13.80
+  description: serviert mit hausgemachten Spätzle und Salat
+-
+  name: "Karibilsches Feuer"
+  price: 15.00
+  description: serviert mit Pommes Frites und Salat
+-
+  name: Kalbsrahmbraten
+  price: 15.80
+  description: serviert mit hausgemachten Spätzle und Salat
+-
+  name: Wienerschnitzel vom Kalb
+  price: 18.50
+  description: serviert mit Röstinchen und Salat
+- 
+  name: Schweinefilet "Gärtnerin"
+  price: 15.50
+  description: serviert mit Kartoffeln und Gemüse
+- 
+  name: Zwiebelrostbraten von der Rinderlende
+  price: 22.80
+  description: serviert mit Pommes Frites und Salat
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
