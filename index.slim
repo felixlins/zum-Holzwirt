@@ -32,11 +32,20 @@ html
             p Reservierung unter 08083/1274
             p Zur Zeit bieten wir keinen Abholservice an. Test
 
+      section
+        .container.p-3
+          h3.title Vorankündigung Altes Bier
+          h5.subtitle
+            br
+            p Samstag 25.03. ab 17:00 Uhr
+            p Sonntag 26.03. ganztägig
+            p nur Samstags gibt´s als Special zusätzlich Rehragout mit Hauberlingen
+
 
       section
         .container.p-3
           h3.title Auszug aus der Speisekarte
-          - YAML.load_file("Menue1_Grillteller.yml").each do |item|
+          - YAML.load_file("Menue6_Mai.yml").each do |item|
             .menuitem.block
               .columns
                 .column.name: h3 = item["name"]
