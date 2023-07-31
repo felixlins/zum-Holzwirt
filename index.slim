@@ -24,6 +24,14 @@ html
 
       section
         .container.p-3
+          h3.title Vorankündigung
+          h5.subtitle
+            br
+            p Vom 16.08. bis einschließlich 08.09. sind wir im Urlaub.
+            p Danach freuen wir uns wieder sehr über ihren Besuch.
+
+      section
+        .container.p-3
           h3.title Unser Lokal
           h5.subtitle
             br
@@ -35,7 +43,7 @@ html
       section
         .container.p-3
           h3.title Auszug aus der Speisekarte
-          - YAML.load_file("Menue4_Ratsherrnkeller.yml").each do |item|
+          - YAML.load_file("Menue3_Gärtnerin.yml").each do |item|
             .menuitem.block
               .columns
                 .column.name: h3 = item["name"]
