@@ -1,46 +1,46 @@
 - 
+  name: Ofenfrischer Schweinebraten
+  price: 12.90
+  description: serviert mit Semmelknödel und Salat
+- 
   name: Burgunderbraten 
-  price: 14.00
+  price: 15.90
   description: serviert mit Kartoffelknödel und Blaukraut
 - 
   name: Schweineschnitzel "Wiener Art"
-  price: 12.80
+  price: 13.90
   description: serviert mit Pommes Frites und Salat
 - 
   name: Rahmschnitzel
-  price: 12.80
+  price: 13.90
   description: serviert mit hausgemachten Spätzle und Salat
 -
   name: Balkanschnitzel
-  price: 12.80
+  price: 13.90
   description: serviert mit Pommes Frites und Salat
 -
   name: Putensteak "natur"
-  price: 13.80
+  price: 14.90
   description: serviert mit Kräuterbutter, Reis und Salat
-- 
-  name: Schweinesteak "Holzwirt"
-  price: 15.50
-  description: serviert mit Spargel, Schinken, Sauce Hollandaise, Pommes Frites und Salat
 -
   name: Kalbsrahmbraten
-  price: 15.80
+  price: 16.90
   description: serviert mit hausgemachten Spätzle und Salat
 -
   name: Wienerschnitzel vom Kalb
-  price: 18.50
+  price: 21.50
   description: serviert mit Röstinchen und Salat
 - 
   name: Grillteller
-  price: 16.00
+  price: 18.50
   description: serviert mit Butterbohnen und Röstinchen
 - 
   name: Zwiebelrostbraten von der Rinderlende
-  price: 22.80
+  price: 24.50
   description: serviert mit Pommes Frites und Salat
 - 
   name: Steak von der Rinderlende
-  price: 22.80
+  price: 24.50
   description: serviert mit Butterbohnen und Pommes Frites 
 - 
   name: Zanderfilet mit der Haut gebraten

@@ -1,44 +1,48 @@
 - 
   name: Leberspätzlesuppe
-  price: 4.00
+  price: 4.80
   description: kleine Suppe zum Start
 - 
-  name: Schweinebraten
-  price: 11.80
+  name: Ofenfrischer Schweinebraten
+  price: 12.90
   description: serviert mit Semmelknödel und Salat
 - 
   name: Balkanbraten
-  price: 11.80
+  price: 12.90
   description: serviert mit Pommes Frites und Salat
 - 
   name: Jägerbraten
-  price: 11.80
+  price: 12.90
   description: serviert mit hausgemachten Spätzle und Salat
 -
   name: Schweineschnitzel "Wiener Art"
-  price: 12.80
+  price: 13.90
   description: serviert mit Pommes Frites und Salat
 -
   name: Kalbsnierenbraten
-  price: 16.00
+  price: 17.50
   description: serviert mit hausgemachten Spätzle und Salat
 -
   name: Schweinelendchen in Pfefferrahmsauce
-  price: 13.80
+  price: 14.90
   description: serviert mit Kroketten und Erbsen
 -
   name: Balkanspieß
-  price: 15.00
+  price: 15.90
   description: serviert mit Pommes Frites und Salat
 -
   name: Schwabenteller
-  price: 15.50
+  price: 16.90
   description: serviert mit hausgemachten Spätzle und Salat
 -
   name: Kalbshaxe
-  price: 17.00
+  price: 19.50
   description: serviert mit Semmelknödel und Salat
 - 
   name: Zwiebelrostbraten von der Rinderlende
-  price: 22.80
+  price: 24.50
   description: serviert mit Pommes Frites und Salat
+- 
+  name: Zanderfilet mit der Haut gebraten
+  price: 19.50
+  description: serviert mit Weißweinsoße, Reis und Salat

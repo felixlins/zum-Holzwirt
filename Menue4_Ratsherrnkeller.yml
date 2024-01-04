@@ -1,51 +1,55 @@
 - 
+  name: Ofenfrischer Schweinebraten
+  price: 12.90
+  description: serviert mit Semmelknödel und Salat
+- 
   name: Jägerbraten
-  price: 11.80
+  price: 12.90
   description: serviert mit hausgemachten Spätzle und Salat
 - 
   name: Schweineschnitzel "Wiener Art"
-  price: 12.80
+  price: 13.90
   description: serviert mit Pommes Frites und Salat
 - 
-  name: Paprikaschnitzel
-  price: 12.80
-  description: serviert mit Reis und Salat
-- 
   name: Putensteak "natur"
-  price: 13.80
+  price: 14.90
   description: serviert mit Kräuterbutter, Reis und Salat
 - 
   name: Schweinelendchen in Pfefferrahmsauce
-  price: 13.80
+  price: 14.90
   description: serviert mit Kroketten und Erbsen
 - 
   name: Balkanspieß
-  price: 15.00
+  price: 15.90
   description: serviert mit Pommes Frites und Salat
 - 
   name: Kalbsrahmbraten
-  price: 15.80
+  price: 16.90
   description: serviert mit hausgemachten Spätzle und Salat
 - 
   name: Wienerschnitzel vom Kalb
-  price: 18.50
+  price: 21.50
   description: serviert mit Röstinchen und Salat
 - 
   name: Schwabenteller
-  price: 15.50
+  price: 16.90
   description: serviert mit hausgemachten Spätzle und Salat
 - 
   name: "Südseeträumerei" 
-  price: 15.50
+  price: 16.50
   description: Schweinefilet serviert mit Sc.Hollandaise, Früchten, Reis und Salat
 - 
   name: "Ratsherrnteller"
-  price: 16.00
-  description: serviert mit Pommes frites, Reis, und Salat
+  price: 17.50
+  description: serviert mit Pommes frites, Reis, Gemüse und Salat
 - 
   name: Zwiebelrostbraten von der Rinderlende
-  price: 22.80
+  price: 24.50
   description: serviert mit Pommes frites und Salat
+- 
+  name: Zanderfilet mit der Haut gebraten
+  price: 19.50
+  description: serviert mit Weißweinsoße, Reis und Salat
 
 
 
