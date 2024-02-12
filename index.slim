@@ -90,7 +90,7 @@ html
       section
         .container.p-3
           h3.title Auszug aus der Speisekarte
-          - YAML.load_file("Menue3_Gärtnerin.yml").each do |item|
+          - YAML.load_file("Menue1_Grillteller.yml").each do |item|
             .menuitem.block
               .columns
                 .column.name: h3 = item["name"]
@@ -122,7 +122,7 @@ html
 
         .block.p-5
           .has-text-centered.is-size-4.has-text-weight-bold
-            p Wir freuen uns auf Sie und wünschen Ihnen ein gutes neues Jahr 2024.
+            p Wir freuen uns auf Sie.
             p Familie Numberger
 
       footer.footer
