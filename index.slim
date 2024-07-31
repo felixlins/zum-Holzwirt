@@ -34,6 +34,17 @@ html
 
       section
         .container.p-3
+          h3.title Vorankündigung Urlaub
+          h5.subtitle
+            br
+            p Liebe Gäste!
+            p Vom Montag dem 19.08. bis inklusive Freitag den 13.09. sind wir im Urlaub.
+            p Danach sind wir gerne wieder für Sie da!
+            br
+            strong Ihre Familie Numberger
+
+      section
+        .container.p-3
           h3.title Minijob (m/d/w) auf 540€-Basis in urbayrischer Gaststätte in Dorfen
           br
             p Wir sind ein Familienbetrieb in Dorfen und ständig auf der Suche nach 
@@ -90,6 +101,8 @@ html
       section
         .container.p-3
           h3.title Auszug aus der Speisekarte
+          br
+           p Alle Gerichte werden mit zwei Beilagen serviert!
           - YAML.load_file("Menue1_Grillteller.yml").each do |item|
             .menuitem.block
               .columns
