@@ -98,22 +98,51 @@ html
 
       section
         .container.p-3
-          h3.title November Special
-          h5.subtitle
-            br
-            p  <b>Rehragout mit Hauberlingen</b> sowie <b>Holzwirt Burger</b> jeden Samstag im November ab 17:00 Uhr!
-
-      section
-        .container.p-3
-          h3.title Auszug aus der Speisekarte
+          h3.title Weihnachtskarte 2024
           br
-           p Alle Gerichte werden mit zwei Beilagen serviert!
-          - YAML.load_file("Menue4_Ratsherrnkeller.yml").each do |item|
+          strong Empfehlung als Aperitif 
+          - YAML.load_file("Menue_Weihnachten_Aperitif.yml").each do |item|
             .menuitem.block
               .columns
-                .column.name: h3 = item["name"]
+                .column.name: h2 = item["name"]
                 .column.dashes
-                .column.price: h3 &euro;#{"%.2f" % item["price"]}
+                .column.price: h2 &euro;#{"%.2f" % item["price"]}
+              p = item["description"]
+          br
+          strong Vorspeisen und Suppen 
+          - YAML.load_file("Menue_Weihnachten_Vorspeisen.yml").each do |item|
+            .menuitem.block
+              .columns
+                .column.name: h2 = item["name"]
+                .column.dashes
+                .column.price: h2 &euro;#{"%.2f" % item["price"]}
+              p = item["description"]
+          br
+          strong Salate und Vegetarisches
+          - YAML.load_file("Menue_Weihnachten_Salate.yml").each do |item|
+            .menuitem.block
+              .columns
+                .column.name: h2 = item["name"]
+                .column.dashes
+                .column.price: h2 &euro;#{"%.2f" % item["price"]}
+              p = item["description"]
+          br
+          strong Für unsere "kleinen" Gäste
+          - YAML.load_file("Menue_Weihnachten_Kinderkarte.yml").each do |item|
+            .menuitem.block
+              .columns
+                .column.name: h2 = item["name"]
+                .column.dashes
+                .column.price: h2 &euro;#{"%.2f" % item["price"]}
+              p = item["description"]
+          br
+          strong Hauptgerichte
+          - YAML.load_file("Menue_Weihnachten_Hauptgerichte.yml").each do |item|
+            .menuitem.block
+              .columns
+                .column.name: h2 = item["name"]
+                .column.dashes
+                .column.price: h2 &euro;#{"%.2f" % item["price"]}
               p = item["description"]
 
 
