@@ -24,7 +24,7 @@ html
 
       section
         .container.p-3
-          h3.title Ab 01.01.2025 - Ruhender Betrieb, Gaststätte geschlossen!
+          h3.title Ab 01.01.2025 - Ruhender Betrieb, Gaststätte geschlossen
           h5.subtitle
             br
             p Liebe Stammgäste, Freunde, Bekannte, Vereine, Nachbarn und Geschäftspartner!
@@ -48,117 +48,103 @@ html
             strong Euer <q>Holzwirt</q>
             p Gina, Hans und Stephan Numberger
          
-      section
-        .container.p-3
-          h3.title Unser Lokal
-          h5.subtitle
-            br
-            p Wir sind ein kleines familiengeführtes bayrisches Lokal ca. 5 min entfernt von der Autobahnausfahrt A94 Lengdorf. Wunderschön gelegen auf einer kleinen Anhöhe im schönen Isental. 
-            p Bitte beachten Sie, dass in unserem Lokal keine Kartenzahlung möglich ist. 
-            p Reservierung unter 08083/1274 jeden Tag möglich!
-            p Zur Zeit bieten wir keinen Abholservice an.
+      / section
+      /   .container.p-3
+      /     h3.title Unser Lokal
+      /     h5.subtitle
+      /       br
+      /       p Wir sind ein kleines familiengeführtes bayrisches Lokal ca. 5 min entfernt von der Autobahnausfahrt A94 Lengdorf. Wunderschön gelegen auf einer kleinen Anhöhe im schönen Isental. 
+      /       p Bitte beachten Sie, dass in unserem Lokal keine Kartenzahlung möglich ist. 
+      /       p Reservierung unter 08083/1274 jeden Tag möglich!
+      /       p Zur Zeit bieten wir keinen Abholservice an.
 
+
+         
+      / section
+      /   .container.p-3
+      /     h3.title Öffnungszeiten
+      /     table.table.is-fullwidth.is-hoverable
+      /       thead
+      /         th.has-text-left Tag
+      /         th.has-text-left Datum
+      /         th.has-text-left Öffnungszeiten
+      /       tbody
+      /         - YAML.load_file("opening-times.yml").each do |date|
+      /           tr
+      /             td = date["name"]
+      /             td = date["date"]
+      /             td = date["times"]
+
+      / section
+      /   .container.p-3
+      /     h3.title Weihnachtskarte 2024
+      /     br
+      /     strong Empfehlung als Aperitif 
+      /     - YAML.load_file("Menue_Weihnachten_Aperitif.yml").each do |item|
+      /       .menuitem.block
+      /         .columns
+      /           .column.name: h2 = item["name"]
+      /           .column.dashes
+      /           .column.price: h2 &euro;#{"%.2f" % item["price"]}
+      /         p = item["description"]
+      /     br
+      /     strong Vorspeisen und Suppen 
+      /     - YAML.load_file("Menue_Weihnachten_Vorspeisen.yml").each do |item|
+      /       .menuitem.block
+      /         .columns
+      /           .column.name: h2 = item["name"]
+      /           .column.dashes
+      /           .column.price: h2 &euro;#{"%.2f" % item["price"]}
+      /         p = item["description"]
+      /     br
+      /     strong Salate und Vegetarisches
+      /     - YAML.load_file("Menue_Weihnachten_Salate.yml").each do |item|
+      /       .menuitem.block
+      /         .columns
+      /           .column.name: h2 = item["name"]
+      /           .column.dashes
+      /           .column.price: h2 &euro;#{"%.2f" % item["price"]}
+      /         p = item["description"]
+      /     br
+      /     strong Für unsere "kleinen" Gäste
+      /     - YAML.load_file("Menue_Weihnachten_Kinderkarte.yml").each do |item|
+      /       .menuitem.block
+      /         .columns
+      /           .column.name: h2 = item["name"]
+      /           .column.dashes
+      /           .column.price: h2 &euro;#{"%.2f" % item["price"]}
+      /         p = item["description"]
+      /     br
+      /     strong Hauptgerichte
+      /     - YAML.load_file("Menue_Weihnachten_Hauptgerichte.yml").each do |item|
+      /       .menuitem.block
+      /         .columns
+      /           .column.name: h2 = item["name"]
+      /           .column.dashes
+      /           .column.price: h2 &euro;#{"%.2f" % item["price"]}
+      /         p = item["description"]
 
 
       / section
       /   .container.p-3
+      /     h3.title Bildergalerie
       /     #gallery
-      /       a href="img/gallery/large/holzwirt-14.jpg": img src="img/gallery/small/holzwirt-14.jpg" 
+      /       a href="img/gallery/large/holzwirt-1.jpg": img src="img/gallery/small/holzwirt-1.jpg" 
+      /       a href="img/gallery/large/holzwirt-2.jpg": img src="img/gallery/small/holzwirt-2.jpg"
+      /       a href="img/gallery/large/holzwirt-3.jpg": img src="img/gallery/small/holzwirt-3.jpg"
+      /       a href="img/gallery/large/holzwirt-4.jpg": img src="img/gallery/small/holzwirt-4.jpg"
+      /       a href="img/gallery/large/holzwirt-5.jpg": img src="img/gallery/small/holzwirt-5.jpg"
+      /       a href="img/gallery/large/holzwirt-6.jpg": img src="img/gallery/small/holzwirt-6.jpg"
+      /       a href="img/gallery/large/holzwirt-7.jpg": img src="img/gallery/small/holzwirt-7.jpg"
+      /       a href="img/gallery/large/holzwirt-8.jpg": img src="img/gallery/small/holzwirt-8.jpg"
+      /       a href="img/gallery/large/holzwirt-9.jpg": img src="img/gallery/small/holzwirt-9.jpg" 
+      /       a href="img/gallery/large/holzwirt-10.jpg": img src="img/gallery/small/holzwirt-10.jpg"
+      /       a href="img/gallery/large/holzwirt-11.jpg": img src="img/gallery/small/holzwirt-11.jpg" 
+      /       a href="img/gallery/large/holzwirt-12.jpg": img src="img/gallery/small/holzwirt-12.jpg"
+      /       a href="img/gallery/large/holzwirt-13.jpg": img src="img/gallery/small/holzwirt-13.jpg"
 
       /   javascript:
       /     lightGallery(document.getElementById('gallery'));
-
-      / section
-      /  .container.p-3
-          
-            
-
-         
-      section
-        .container.p-3
-          h3.title Öffnungszeiten
-          table.table.is-fullwidth.is-hoverable
-            thead
-              th.has-text-left Tag
-              th.has-text-left Datum
-              th.has-text-left Öffnungszeiten
-            tbody
-              - YAML.load_file("opening-times.yml").each do |date|
-                tr
-                  td = date["name"]
-                  td = date["date"]
-                  td = date["times"]
-
-      section
-        .container.p-3
-          h3.title Weihnachtskarte 2024
-          br
-          strong Empfehlung als Aperitif 
-          - YAML.load_file("Menue_Weihnachten_Aperitif.yml").each do |item|
-            .menuitem.block
-              .columns
-                .column.name: h2 = item["name"]
-                .column.dashes
-                .column.price: h2 &euro;#{"%.2f" % item["price"]}
-              p = item["description"]
-          br
-          strong Vorspeisen und Suppen 
-          - YAML.load_file("Menue_Weihnachten_Vorspeisen.yml").each do |item|
-            .menuitem.block
-              .columns
-                .column.name: h2 = item["name"]
-                .column.dashes
-                .column.price: h2 &euro;#{"%.2f" % item["price"]}
-              p = item["description"]
-          br
-          strong Salate und Vegetarisches
-          - YAML.load_file("Menue_Weihnachten_Salate.yml").each do |item|
-            .menuitem.block
-              .columns
-                .column.name: h2 = item["name"]
-                .column.dashes
-                .column.price: h2 &euro;#{"%.2f" % item["price"]}
-              p = item["description"]
-          br
-          strong Für unsere "kleinen" Gäste
-          - YAML.load_file("Menue_Weihnachten_Kinderkarte.yml").each do |item|
-            .menuitem.block
-              .columns
-                .column.name: h2 = item["name"]
-                .column.dashes
-                .column.price: h2 &euro;#{"%.2f" % item["price"]}
-              p = item["description"]
-          br
-          strong Hauptgerichte
-          - YAML.load_file("Menue_Weihnachten_Hauptgerichte.yml").each do |item|
-            .menuitem.block
-              .columns
-                .column.name: h2 = item["name"]
-                .column.dashes
-                .column.price: h2 &euro;#{"%.2f" % item["price"]}
-              p = item["description"]
-
-
-      section
-        .container.p-3
-          h3.title Bildergalerie
-          #gallery
-            a href="img/gallery/large/holzwirt-1.jpg": img src="img/gallery/small/holzwirt-1.jpg" 
-            a href="img/gallery/large/holzwirt-2.jpg": img src="img/gallery/small/holzwirt-2.jpg"
-            a href="img/gallery/large/holzwirt-3.jpg": img src="img/gallery/small/holzwirt-3.jpg"
-            a href="img/gallery/large/holzwirt-4.jpg": img src="img/gallery/small/holzwirt-4.jpg"
-            a href="img/gallery/large/holzwirt-5.jpg": img src="img/gallery/small/holzwirt-5.jpg"
-            a href="img/gallery/large/holzwirt-6.jpg": img src="img/gallery/small/holzwirt-6.jpg"
-            a href="img/gallery/large/holzwirt-7.jpg": img src="img/gallery/small/holzwirt-7.jpg"
-            a href="img/gallery/large/holzwirt-8.jpg": img src="img/gallery/small/holzwirt-8.jpg"
-            a href="img/gallery/large/holzwirt-9.jpg": img src="img/gallery/small/holzwirt-9.jpg" 
-            a href="img/gallery/large/holzwirt-10.jpg": img src="img/gallery/small/holzwirt-10.jpg"
-            a href="img/gallery/large/holzwirt-11.jpg": img src="img/gallery/small/holzwirt-11.jpg" 
-            a href="img/gallery/large/holzwirt-12.jpg": img src="img/gallery/small/holzwirt-12.jpg"
-            a href="img/gallery/large/holzwirt-13.jpg": img src="img/gallery/small/holzwirt-13.jpg"
-
-        javascript:
-          lightGallery(document.getElementById('gallery'));
 
         .block.p-5
           .has-text-centered.is-size-4.has-text-weight-bold
